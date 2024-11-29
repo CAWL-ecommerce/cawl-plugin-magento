@@ -1,0 +1,32 @@
+{
+    "name": "cawl/module-magento-payment",
+    "description": "Cawl Online Payments",
+    "require": {
+        "php": ">=7.3",
+        "ext-json": "*",
+        "cawl/module-magento-payment-credit-card": "1.0.0",
+        "cawl/module-magento-payment-redirect-payment": "1.0.0",
+        "cawl/module-magento-payment-graph-ql": "1.0.0"
+    },
+    "suggest": {
+        "worldline/module-magento-recurring-payments": "Allow recurring payments",
+        "worldline/module-magento-theme-hyva": "Hyva Luma checkout support"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Cawl Online Payments",
+            "homepage": "https://worldline.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Worldline\\Payment\\": ""
+        }
+    }
+}
