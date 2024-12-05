@@ -73,6 +73,38 @@ To install these solutions, you may use
 [adobe commerce marketplace](https://marketplace.magento.com/worldline-module-magento-payment.html)
 or install them from the GitHub.
 
+## Installation
+To install the extensions, follow these steps in the root of your Magento installation:
+
+### Specify target repositories
+````
+composer config repositories.cawl/module-magento-payment git git@github.com:Worldline-Plugins/cawl-plugin-magento.git
+
+composer config repositories.cawl/module-magento-payment-core git git@github.com:Worldline-Plugins/cawl-plugin-magento-core.git
+
+composer config repositories.cawl/module-magento-payment-hostedcheckout git git@github.com:Worldline-Plugins/cawl-plugin-magento-hostedcheckout.git
+
+composer config repositories.cawl/module-magento-payment-redirectpayment git git@github.com:Worldline-Plugins/cawl-plugin-magento-redirect-payments.git
+
+composer config repositories.cawl/module-magento-payment-creditcard git git@github.com:Worldline-Plugins/cawl-plugin-magento-creditcard.git
+
+composer config repositories.cawl/module-magento-payment-graph-ql git git@github.com:Worldline-Plugins/cawl-plugin-magento-graph-ql.git
+````
+
+### Execute the composer command to install the packages
+````
+composer require cawl/module-magento-payment
+````
+
+### Execute magento commands to complete installation:
+``````
+bin/magento setup:upgrade
+
+bin/magento setup:di:compile
+
+bin/magento setup:static-content:deploy
+``````
+
 Suggested packages:
 - [recurring payments](https://github.com/wl-online-payments-direct/plugin-magento-recurring-payments)
 
