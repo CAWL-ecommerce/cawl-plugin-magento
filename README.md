@@ -65,9 +65,9 @@ transactions and take actions accordingly
 [![M2 Mess Detector](https://github.com/wl-online-payments-direct/plugin-magento-redirect-payments/actions/workflows/mess-detector.yml/badge.svg?branch=develop)](https://github.com/wl-online-payments-direct/plugin-magento-redirect-payments/actions/workflows/mess-detector.yml)
 
 This is a main module that are used as a container to get all Cawl payment solutions:
-- [credit card](https://github.com/wl-online-payments-direct/plugin-magento-creditcard)
-- [hosted checkout](https://github.com/wl-online-payments-direct/plugin-magento-hostedcheckout)
-- [redirect payments (single payment buttons)](https://github.com/wl-online-payments-direct/plugin-magento-redirect-payments)
+- [credit card](https://github.com/Worldline-Plugins/cawl-plugin-magento-creditcard)
+- [hosted checkout](https://github.com/Worldline-Plugins/plugin-magento-hostedcheckout)
+- [redirect payments (single payment buttons)](https://github.com/Worldline-Plugins/plugin-magento-redirect-payments)
 
 To install these solutions, you may use
 [adobe commerce marketplace](https://marketplace.magento.com/worldline-module-magento-payment.html)
