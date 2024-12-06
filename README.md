@@ -61,8 +61,8 @@ transactions and take actions accordingly
 
 ## Main Extension for Adobe Commerce with all cawl solutions 
 
-[![M2 Coding Standard](https://github.com/wl-online-payments-direct/plugin-magento-redirect-payments/actions/workflows/coding-standard.yml/badge.svg?branch=develop)](https://github.com/wl-online-payments-direct/plugin-magento-redirect-payments/actions/workflows/coding-standard.yml)
-[![M2 Mess Detector](https://github.com/wl-online-payments-direct/plugin-magento-redirect-payments/actions/workflows/mess-detector.yml/badge.svg?branch=develop)](https://github.com/wl-online-payments-direct/plugin-magento-redirect-payments/actions/workflows/mess-detector.yml)
+[![M2 Coding Standard](https://github.com/Worldline-Plugins/cawl-plugin-magento/actions/workflows/coding-standard.yml/badge.svg?branch=develop)](https://github.com/Worldline-Plugins/cawl-plugin-magento/actions/workflows/coding-standard.yml)
+[![M2 Mess Detector](https://github.com/Worldline-Plugins/cawl-plugin-magento/actions/workflows/mess-detector.yml/badge.svg?branch=develop)](https://github.com/Worldline-Plugins/cawl-plugin-magento/actions/workflows/mess-detector.yml)
 
 This is a main module that are used as a container to get all Cawl payment solutions:
 - [credit card](https://github.com/Worldline-Plugins/cawl-plugin-magento-creditcard)
