@@ -69,10 +69,6 @@ This is a main module that are used as a container to get all Cawl payment solut
 - [hosted checkout](https://github.com/Worldline-Plugins/cawl-plugin-magento-hostedcheckout)
 - [redirect payments (single payment buttons)](https://github.com/Worldline-Plugins/cawl-plugin-magento-redirect-payments)
 
-To install these solutions, you may use
-[adobe commerce marketplace](https://marketplace.magento.com/worldline-module-magento-payment.html)
-or install them from the GitHub.
-
 ## Installation
 To install the extensions, follow these steps in the root of your Magento installation:
 
@@ -104,9 +100,6 @@ bin/magento setup:di:compile
 
 bin/magento setup:static-content:deploy
 ``````
-
-Suggested packages:
-- [recurring payments](https://github.com/wl-online-payments-direct/plugin-magento-recurring-payments)
 
 ### Change log:
 
