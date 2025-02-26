@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+#### 1.1.3
+- Update the credit-card, graph-ql and redirect-payment CAWL modules
+
 #### 1.1.2
 - Update the credit-card and graph-ql and redirect-payment CAWL modules
 
