@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+#### 1.1.4
+- Add 3DS exemption types to the plugin
+
 #### 1.1.3
 - Update the credit-card, graph-ql and redirect-payment CAWL modules
 
