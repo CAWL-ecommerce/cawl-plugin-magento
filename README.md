@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+#### 1.1.5
+- Update plugin translations
+
 #### 1.1.4
 - Add 3DS exemption types to the plugin
 
