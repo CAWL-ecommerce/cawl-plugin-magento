@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+#### 1.1.6
+- Fixed failed payment log table name (update the credit-card, graph-ql and redirect-payment modules)
+
 #### 1.1.5
 - Update plugin translations
 
