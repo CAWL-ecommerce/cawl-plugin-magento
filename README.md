@@ -103,6 +103,10 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+#### 1.1.8
+- Add compatibility with PHP 8.4
+- Update SDK version
+
 #### 1.1.7
 - Fixed issue with default 3DS values (update the credit-card, graph-ql and redirect-payment modules)
 
