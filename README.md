@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+#### 1.1.13
+- Fix wrong handling of payment specific information on order page
+
 #### 1.1.12
 - Fix comma separated email validation in notification settings
 
