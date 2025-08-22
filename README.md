@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+#### 1.1.14
+- Fix issue with sending email
+
 #### 1.1.13
 - Fix wrong handling of payment specific information on order page
 
