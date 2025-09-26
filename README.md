@@ -104,7 +104,7 @@ bin/magento setup:static-content:deploy
 ### Change log:
 
 #### 1.1.16
-- Allow order creation on amount discrepancies
+- Allow Order Creation on Amount Discrepancies
 
 #### 1.1.15
 - Add quote ID to request payload
