@@ -103,6 +103,10 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+#### 1.1.17
+- Fix print invoice issue
+- Update payment brand logos
+
 #### 1.1.16
 - Allow Order Creation on Amount Discrepancies
 
