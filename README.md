@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+#### 1.1.20
+- Manage exemptions for french markets
+
 #### 1.1.19
 - Add new payment method: Pledg
 
