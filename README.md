@@ -104,7 +104,7 @@ bin/magento setup:static-content:deploy
 ### Change log:
 
 ### 1.1.24
-- Removed Mealvouchers logo from checkout page when using "Hosted Checkout (redirect to Worldline)"
+- Remove Mealvouchers logo from checkout page when using "Hosted Checkout (redirect to Worldline)"
 
 #### 1.1.23
 - Fix decimal quantity amount for CB 3DSecure object
