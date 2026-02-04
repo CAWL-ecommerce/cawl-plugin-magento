@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+### 1.1.26
+- Fix: Stability for 3DS exemption capabilities
+
 ### 1.1.25
 - Improved exemptions capabilities related to 3DS exemption types
 - Added phone number formatter for sending API requests
