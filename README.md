@@ -103,6 +103,19 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+### 1.1.32
+- Fixed: Creating an online invoice for orders
+- Fixed: Amount discrepancy check for non-worldline methods
+- Added: Debug log for API call when the Worldline stored card is deleted
+- Fixed: Magento order display for transactions created with other WL account
+- Fixed: Create Magento order for GooglePay transaction
+
+### 1.1.31
+- Fixed: Prevented cart loss after cancelled or declined payments on the Hosted payment page
+
+### 1.1.30
+- Added: Deleting a consumer’s stored token from their account now also deletes the token on the payment platform
+
 ### 1.1.29
 - Updated: Change iDEAL logo and label
 - Updated: Branding of Pledg changed to Sofinco
@@ -111,10 +124,7 @@ bin/magento setup:static-content:deploy
 - Fix order creation when 3DS exemption configuration is disabled
 
 ### 1.1.27
-- Improved: Orders with an amount discrepancy will now be created in “payment_review” state
-- Improved: Round final price to two decimals when evaluating an amount discrepancy
-- Fixed: Inconsistency between the order's status and state during webhook processing
-- Fixed: Improper modification of the order state in display blocks
+- Improved order creation process when there is an amount discrepancy
 
 ### 1.1.26
 - Added: new 3-D Secure exemption flow (preference for no challenge)
