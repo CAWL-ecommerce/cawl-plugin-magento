@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+### 1.1.34
+- Added: Linxo Connect payment method
+
 ### 1.1.33
 - Fixed: Handle formatting phone number when it is optional
 
