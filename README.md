@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+### 1.1.40
+- Added: New signature types options for SEPA Direct Debit
+
 ### 1.1.39
 - Added: Soft-delete handling for quote-linked tables
 
