@@ -103,6 +103,10 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+### 1.1.47
+- Fixed: Validate checkout addresses before the payment redirect to prevent paid payments without an order
+- Fixed: Checkout page breaking when the address could not be saved to the address book
+
 ### 1.1.46
 - Fixed: Handling and processing Void action from order details page
 
