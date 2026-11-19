@@ -103,6 +103,9 @@ bin/magento setup:static-content:deploy
 
 ### Change log:
 
+### 1.1.49
+- Added: PostFinance Pay payment method
+
 ### 1.1.48
 - Added: Wero payment method
 
